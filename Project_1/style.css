@@ -1,0 +1,65 @@
+    
+        input,
+        button {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+
+        body {
+            padding: 20px;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+
+        #solution-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        label {
+            font-size: 2em;
+            font-weight: bold;
+            font-family: monospace;
+        }
+
+        #calculation {
+            flex-grow: 1;
+            font-size: 1.3em;
+            line-height: 30px;
+        }
+
+        #calculation b {
+            display: block;
+            text-align: center;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            border-radius: 10px;
+            border: none;
+            padding: 5px 10px;
+            font-size: 1.5em;
+            flex-grow: 1;
+        }
+
+        .sol {
+            font-weight: bold;
+            border-bottom: black double 5px;
+        }
+
+        #buttons {
+            display: flex;
+            gap: 20px;
+        }
+    
