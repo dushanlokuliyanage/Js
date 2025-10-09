@@ -21,6 +21,8 @@
             justify-content: center;
             align-items: center;
             background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: all 1s ease-in-out;
         }
 
         .popUp2 {
