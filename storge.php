@@ -43,8 +43,6 @@
             input.value = "";
         }
 
-
-
         function delect() {
             localStorage.removeItem('myName');
             output.textContent = "";
